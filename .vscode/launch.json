@@ -5,17 +5,6 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "command": "./deploy.sh",
-      "name": "deploy",
-      "request": "launch",
-      "type": "node-terminal",
-      "presentation": {
-        "hidden": false,
-        "group": "deploy",
-        "order": 1
-      }
-    },
-    {
       "command": "pnpm dev",
       "name": "Debug docs",
       "request": "launch",

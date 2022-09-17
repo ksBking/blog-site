@@ -10,6 +10,7 @@
   },
   "homepage": "https://ksbking.gitee.io/",
   "pages": "https://gitee.com/ksbking/ksbking/pages",
+  "antions": "https://github.com/ksBking/blog-site/actions",
   "license": "MIT",
   "private": true,
   "scripts": {
