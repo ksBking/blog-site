@@ -1,0 +1,36 @@
+name: Sync
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync to Gitee
+        uses: Yikun/hub-mirror-action@v1.2
+        with:
+          src: github/ksbking
+          dst: gitee/ksbking
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_PASSWORD }}
+          mappings: 'blog-site=>ksbking'
+          static_list: 'blog-site'
+
+      - name: Build Gitee Pages
+        uses: yanglbme/gitee-pages-action@v1.4.1
+        with:
+          # Gitee 用户名
+          gitee-username: ksbking
+          # Gitee 密码
+          gitee-password: ${{ secrets.GITEE_PASSWORD }}
+          # Gitee 仓库（严格区分大小写）
+          gitee-repo: ksbking/ksbking
+          # 要部署的分支（分支必须存在）
+          branch: main
+          # 要部署的分支上的目录
+          directory: dist
+          # 是否强制使用 HTTPS
+          https: true

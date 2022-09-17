@@ -1,0 +1,23 @@
+{
+  "name": "blog-site",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "blog site",
+  "author": {
+    "name": "Bking",
+    "email": "ksbwang@qq.com",
+    "url": "https://ksbking.gitee.io/"
+  },
+  "homepage": "https://ksbking.gitee.io/",
+  "pages": "https://gitee.com/ksbking/ksbking/pages",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev docs --host",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.15"
+  }
+}
