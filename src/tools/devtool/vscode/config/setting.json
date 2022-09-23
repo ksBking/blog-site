@@ -1,0 +1,73 @@
+{
+  "files.autoSave": "onFocusC111hange",
+  "editor.fontFamily": "'Cascadia Code', 'Microsoft Yahei UI'",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "editor.tabCompletion": "on",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.unicodeHighlight.allowedLocales": {
+    "zh-hant": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "constant",
+          "storage",
+          "keyword.control",
+          "keyword.operator.new",
+          "entity.other.attribute-name",
+          "entity.name.type.class",
+          "variable.language",
+          "variable.parameter",
+          "markup.quote.markdown",
+          "markup.italic.markdown"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "workbench.iconTheme": "material-icon-theme",
+
+  "window.commandCenter": false,
+
+  "terminal.integrated.defaultProfile.windows": "PowerShell 7",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell 7": {
+      "path": "E:/PowerShell/7/pwsh.exe",
+      "icon": "terminal-powershell"
+    }
+  },
+
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.enableCommitSigning": false,
+
+  "livePreview.openPreviewTarget": "External Browser",
+  "livePreview.autoRefreshPreview": "On Changes to Saved Files",
+  "livePreview.defaultPreviewPath": "/index.html",
+
+  "eslint.packageManager": "pnpm",
+  "eslint.validate": ["javascript", "javascriptreact", "vue", "typescript", "typescriptreact"],
+
+  "prettier.arrowParens": "avoid",
+  "prettier.trailingComma": "all",
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 100,
+
+  "csscomb.preset": "C:/Users/Bking/.csscomb.json"
+}

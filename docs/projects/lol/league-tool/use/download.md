@@ -1,3 +1,0 @@
-# 下载
-
-<LeagueToolDownload/>

@@ -1,5 +1,5 @@
 {
-  "include": ["**/*.d.ts", "docs/.vitepress/theme/**/*"],
+  "include": ["**/*.d.ts", ".vitepress/theme/**/*", "src/**/*.vue"],
   "compilerOptions": {
     "lib": ["ESNext", "DOM", "WebWorker"],
     "baseUrl": ".",
