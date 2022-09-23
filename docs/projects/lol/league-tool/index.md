@@ -1,4 +1,4 @@
-# 什么是 LeagueTool ？
+# LeagueTool
 
 LeagueTool ——《联盟助手》，为《英雄联盟》而生的绿色助手。
 
@@ -23,11 +23,11 @@ LeagueTool 使用 [ELECTRON](https://www.electronjs.org/languages/zh-CN) +
 > Riot Games 技术 - [英雄联盟客户端架构更新](https://technology.riotgames.com/news/architecture-league-client-update)
 
 ![](https://technology.riotgames.com/sites/default/files/articles/40/lcuheader3.png)
-在 2016 年英雄联盟客户端使用新的架构，称之为 League Client Update（简称 LCU）。
+在 2016 年英雄联盟客户端使用新的架构，称之为 League Client Update（简称 LCU） 。
 
 新版架构可以分为底层和上层。
 
-- 上层（LeagueClientUx.exe，LeagueClientUxRender.exe）主要用于显示界面并与底层进行通信。
+- 上层（LeagueClientUx.exe，LeagueClientUxRender.exe） 主要用于显示界面并与底层进行通信。
 
 - 底层（LeagueClient.exe） 与上层和服务器进行通信，同时会启动一个服务以供第三方程序来与之通信。
 

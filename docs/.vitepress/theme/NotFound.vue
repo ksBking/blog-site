@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { useData } from 'vitepress';
-
 const { site } = useData();
 </script>
 
@@ -10,9 +9,9 @@ const { site } = useData();
     <h1 class="title">看起来我们进入了错误的链接…</h1>
     <div class="divider" />
     <blockquote class="quote">
-      不介意的话可以向我们<a href="https://wj.qq.com/s2/10713059/078d">提交错误</a>！
+      不介意的话可以向我们<a href="https://wj.qq.com/s2/10713059/078d" target="_blank">提交错误</a
+      >！
     </blockquote>
-
     <div class="action">
       <a class="link" :href="site.base" aria-label="go to home">返回首页</a>
     </div>

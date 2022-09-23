@@ -53,14 +53,8 @@ function nav() {
           text: '英雄联盟',
           items: [
             {
-              text: 'LeagueTool',
-              link: '/docs/lol/league-tool/what-is-league-tool',
-              activeMatch: '/docs/lol/league-tool/',
-            },
-            {
               text: '官网资源',
               link: '/docs/lol/web-resources/',
-              activeMatch: '/docs/lol/web-resources/',
             },
           ],
         },
@@ -70,33 +64,74 @@ function nav() {
         },
       ],
     },
+    {
+      text: '工具',
+      activeMatch: '/tools/',
+      items: [
+        {
+          text: '开发工具',
+          items: [
+            {
+              text: 'VSCode',
+              link: '/tools/devtool/vscode/',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      text: '项目',
+      activeMatch: '/projects/',
+      items: [
+        {
+          text: '英雄联盟',
+          items: [
+            {
+              text: 'LeagueTool',
+              link: '/projects/lol/league-tool/',
+            },
+          ],
+        },
+      ],
+    },
     { text: '赞赏', link: '/sponsor/' },
   ];
 }
 
 function sidebar() {
   return {
-    '/docs/lol/league-tool': [
-      {
-        text: '介绍',
-        items: [
-          { text: '前言', link: '/docs/lol/league-tool/what-is-league-tool' },
-          { text: '功能', link: '/docs/lol/league-tool/features' },
-          { text: '关于', link: '/docs/lol/league-tool/about' },
-        ],
-      },
-      {
-        text: '其他',
-        items: [
-          { text: '下载', link: '/docs/lol/league-tool/download' },
-          { text: '更新日志', link: '/docs/lol/league-tool/changelog' },
-        ],
-      },
-    ],
-    '/docs/lol/web-resources': [
+    '/docs/lol/web-resources/': [
       {
         text: '官网资源',
         items: [{ text: '介绍', link: '/docs/lol/web-resources/' }],
+      },
+    ],
+    '/tools/devtool/vscode/': [
+      {
+        text: '开始',
+        items: [
+          { text: '简介', link: '/tools/devtool/vscode/' },
+          { text: '下载', link: '/tools/devtool/vscode/setup/download' },
+        ],
+      },
+      {
+        text: '配置',
+        items: [{ text: '设置', link: '/tools/devtool/vscode/config/setting' }],
+      },
+    ],
+    '/projects/lol/league-tool/': [
+      {
+        text: '开始',
+        items: [{ text: '简介', link: '/projects/lol/league-tool/' }],
+      },
+      {
+        text: '使用',
+        items: [
+          { text: '功能', link: '/projects/lol/league-tool/use/features' },
+          { text: '关于', link: '/projects/lol/league-tool/use/about' },
+          { text: '下载', link: '/projects/lol/league-tool/use/download' },
+          { text: '更新日志', link: '/projects/lol/league-tool/use/changelog' },
+        ],
       },
     ],
   };
