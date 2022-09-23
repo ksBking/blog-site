@@ -9,15 +9,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Sync to Gitee
-        uses: Yikun/hub-mirror-action@v1.2
-        with:
-          src: github/ksbking
-          dst: gitee/ksbking
-          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
-          dst_token: ${{ secrets.GITEE_PASSWORD }}
-          mappings: 'blog-site=>ksbking'
-          static_list: 'blog-site'
+      # - name: Sync to Gitee
+      #   uses: Yikun/hub-mirror-action@v1.2
+      #   with:
+      #     src: github/ksbking
+      #     dst: gitee/ksbking
+      #     dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+      #     dst_token: ${{ secrets.GITEE_PASSWORD }}
+      #     mappings: 'blog-site=>ksbking'
+      #     static_list: 'blog-site'
 
       - name: Build Gitee Pages
         uses: yanglbme/gitee-pages-action@v1.4.1
