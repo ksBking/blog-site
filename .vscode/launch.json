@@ -6,25 +6,21 @@
   "configurations": [
     {
       "command": "pnpm dev",
-      "name": "Debug docs",
+      "name": "Debug",
       "request": "launch",
-      "type": "node-terminal",
-      "presentation": {
-        "hidden": false,
-        "group": "docs",
-        "order": 1
-      }
+      "type": "node-terminal"
     },
     {
       "command": "pnpm build",
-      "name": "Build docs",
+      "name": "Build",
       "request": "launch",
-      "type": "node-terminal",
-      "presentation": {
-        "hidden": false,
-        "group": "docs",
-        "order": 2
-      }
+      "type": "node-terminal"
+    },
+    {
+      "command": "pnpm serve",
+      "name": "Serve",
+      "request": "launch",
+      "type": "node-terminal"
     }
   ]
 }

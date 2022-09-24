@@ -15,7 +15,10 @@ export default {
     },
     {
       text: '配置',
-      items: [{ text: '设置', link: '/tools/devtool/vscode/config/setting' }],
+      items: [
+        { text: '设置', link: '/tools/devtool/vscode/config/setting' },
+        { text: '扩展', link: '/tools/devtool/vscode/config/extension' },
+      ],
     },
   ],
   '/projects/lol/league-tool/': [

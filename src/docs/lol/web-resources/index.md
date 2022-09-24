@@ -48,7 +48,7 @@ outline: deep
 
 ### 英雄列表
 
-`https://game.gtimg.cn/images/lol/act/img/js/heroList/hero_list.js`
+[`https://game.gtimg.cn/images/lol/act/img/js/heroList/hero_list.js`](https://game.gtimg.cn/images/lol/act/img/js/heroList/hero_list.js)
 
 ### 英雄数据
 
@@ -56,23 +56,23 @@ outline: deep
 
 ### 装备列表
 
-`https://game.gtimg.cn/images/lol/act/img/js/items/items.js`
+[`https://game.gtimg.cn/images/lol/act/img/js/items/items.js`](https://game.gtimg.cn/images/lol/act/img/js/items/items.js)
 
 ### 装备列表(ext)
 
-`https://game.gtimg.cn/images/lol/act/img/js/items_ext/items_ext.js`
+[`https://game.gtimg.cn/images/lol/act/img/js/items_ext/items_ext.js`](https://game.gtimg.cn/images/lol/act/img/js/items_ext/items_ext.js)
 
 ### 符文列表
 
-`https://game.gtimg.cn/images/lol/act/img/js/runeList/rune_list.js`
+[`https://game.gtimg.cn/images/lol/act/img/js/runeList/rune_list.js`](https://game.gtimg.cn/images/lol/act/img/js/runeList/rune_list.js)
 
 ### 召唤师技能列表
 
-`https://game.gtimg.cn/images/lol/act/img/js/summonerskillList/summonerskill_list.js`
+[`https://game.gtimg.cn/images/lol/act/img/js/summonerskillList/summonerskill_list.js`](https://game.gtimg.cn/images/lol/act/img/js/summonerskillList/summonerskill_list.js)
 
 ### 宇宙官网英雄列表(含高清英雄原皮图片链接)
 
-`https://yz.lol.qq.com/v1/zh_cn/champion-browse/index.json`
+[`https://yz.lol.qq.com/v1/zh_cn/champion-browse/index.json`](https://yz.lol.qq.com/v1/zh_cn/champion-browse/index.json)
 
 ## 图片资源
 

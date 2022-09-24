@@ -1,10 +1,10 @@
 # 下载
 
-[官网下载](https://code.visualstudio.com/#alt-downloads)如果很慢，推荐使用以下方法。
+[官网下载](https://code.visualstudio.com/download)如果很慢，推荐使用以下方法。
 
 ## 镜像下载
 
-请先到官网点击下载，然后复制下载链接。
+请先到[官网](https://code.visualstudio.com/)点击下载，然后复制下载链接。
 
 然后把下载链接中的域名`az764295.vo.msecnd.net`替换为`vscode.cdn.azure.cn`即可
 
