@@ -36,6 +36,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
   build:
+    runs-on: ubuntu-latest
     steps:
       # - name: Sync to Gitee
       #   uses: Yikun/hub-mirror-action@v1.2
