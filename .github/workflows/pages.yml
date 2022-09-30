@@ -35,7 +35,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-
+  build:
+    steps:
       # - name: Sync to Gitee
       #   uses: Yikun/hub-mirror-action@v1.2
       #   with:
@@ -58,6 +59,6 @@ jobs:
           # 要部署的分支（分支必须存在）
           branch: main
           # 要部署的分支上的目录
-          directory: dist
+          directory: ./dist
           # 是否强制使用 HTTPS
           https: true
