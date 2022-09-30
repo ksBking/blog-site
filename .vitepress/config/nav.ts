@@ -16,6 +16,15 @@ export default [
         text: 'Node.js',
         link: '/docs/nodejs/',
       },
+      {
+        text: '操作系统',
+        items: [
+          {
+            text: 'Windows 10',
+            link: '/docs/system/windows10/',
+          },
+        ],
+      },
     ],
   },
   {
@@ -56,7 +65,7 @@ function sidebar() {
     '/docs/lol/web-resources/': [
       {
         text: '官网资源',
-        items: [{ text: '介绍', link: '/docs/lol/web-resources/' }],
+        items: [{ text: '简介', link: '/docs/lol/web-resources/' }],
       },
     ],
     '/tools/devtool/vscode/': [

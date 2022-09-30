@@ -2,7 +2,16 @@ export default {
   '/docs/lol/web-resources/': [
     {
       text: '官网资源',
-      items: [{ text: '介绍', link: '/docs/lol/web-resources/' }],
+      items: [{ text: '简介', link: '/docs/lol/web-resources/' }],
+    },
+  ],
+  '/docs/system/windows10/': [
+    {
+      text: '开始',
+      items: [
+        { text: '简介', link: '/docs/system/windows10/' },
+        { text: '下载', link: '/docs/system/windows10/setup/download' },
+      ],
     },
   ],
   '/tools/devtool/vscode/': [
