@@ -90,7 +90,6 @@ function sidebar() {
         text: '使用',
         items: [
           { text: '功能', link: '/projects/lol/league-tool/use/features' },
-          { text: '关于', link: '/projects/lol/league-tool/use/about' },
           { text: '下载', link: '/projects/lol/league-tool/use/download' },
           {
             text: '更新日志',
