@@ -5,7 +5,7 @@ LeagueTool 是一款免费绿色开源助手
 ## 绿色助手
 
 - LeagueTool 不修改游戏文件，不读写客户端内存数据；
-- LeagueTool 完全遵守《英雄联盟用户使用协议》；
+- LeagueTool 不会导致账号被封等违规现象。
 
 ## 免责声明
 
