@@ -1,17 +1,21 @@
 export default {
   '/docs/lol/web-resources/': [
     {
-      text: '官网资源',
+      text: '开始',
       items: [{ text: '简介', link: '/docs/lol/web-resources/' }],
     },
   ],
-  '/docs/system/windows10/': [
+  '/docs/system/windows/': [
     {
       text: '开始',
       items: [
-        { text: '简介', link: '/docs/system/windows10/' },
-        { text: '下载', link: '/docs/system/windows10/setup/download' },
+        { text: '简介', link: '/docs/system/windows/' },
+        { text: '激活', link: '/docs/system/windows/setup/activation' },
       ],
+    },
+    {
+      text: '优化',
+      items: [{ text: '设置', link: '/docs/system/windows/optimize/setting' }],
     },
   ],
   '/tools/devtool/vscode/': [

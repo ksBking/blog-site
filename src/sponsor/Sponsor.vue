@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper">
-    <img class="img" src="./images/wx.png" alt="" />
-    <img class="img" src="./images/zfb.png" alt="" />
-    <img class="img" src="./images/qq.png" alt="" />
+    <img class="img" src="./images/wx.webp" alt="" />
+    <img class="img" src="./images/zfb.webp" alt="" />
+    <img class="img" src="./images/qq.webp" alt="" />
   </div>
 </template>
 

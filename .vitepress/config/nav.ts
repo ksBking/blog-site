@@ -20,8 +20,8 @@ export default [
         text: '操作系统',
         items: [
           {
-            text: 'Windows 10',
-            link: '/docs/system/windows10/',
+            text: 'Windows',
+            link: '/docs/system/windows/',
           },
         ],
       },
@@ -39,6 +39,10 @@ export default [
             link: '/tools/devtool/vscode/',
           },
         ],
+      },
+      {
+        text: '推荐工具',
+        link: '/tools/recommend',
       },
     ],
   },
