@@ -1,6 +1,5 @@
 {
   "name": "blog-site",
-  "type": "module",
   "version": "0.0.0",
   "description": "blog site",
   "author": {
@@ -9,8 +8,6 @@
     "url": "https://ksbking.gitee.io/"
   },
   "homepage": "https://ksbking.gitee.io/",
-  "pages": "https://gitee.com/ksbking/ksbking/pages",
-  "antions": "https://github.com/ksBking/blog-site/actions",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -19,6 +16,8 @@
     "serve": "vitepress serve"
   },
   "devDependencies": {
-    "vitepress": "1.0.0-alpha.15"
+    "fast-glob": "^3.2.12",
+    "gray-matter": "^4.0.3",
+    "vitepress": "1.0.0-alpha.18"
   }
 }

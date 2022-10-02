@@ -1,7 +1,5 @@
 import { defineConfig } from 'vitepress';
-import nav from './config/nav';
-import sidebar from './config/sidebar';
-import icons from './config/icons';
+import { icons, nav, sidebar } from './config/index';
 
 export default defineConfig({
   base: '/',
@@ -27,14 +25,15 @@ export default defineConfig({
       host: true,
     },
     build: {
-      target: 'es2015',
+      target: 'esnext',
     },
   },
   themeConfig: {
-    logo: '/favicon.ico',
+    logo: { src: '/favicon.ico', alt: 'Bking' },
     siteTitle: 'Bking',
+    outline: 'deep',
     outlineTitle: '本页目录',
-    nav: nav,
+    nav: [...nav, { text: '赞赏', link: '/sponsor/' }],
     sidebar: sidebar,
     editLink: {
       pattern: 'https://wj.qq.com/s2/10713059/078d',
