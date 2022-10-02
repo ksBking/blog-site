@@ -155,6 +155,7 @@ onMounted(() => {
   font-weight: 700;
   font-size: 48px;
   line-height: 1.4;
+  user-select: none;
   animation: show-title 0.5s;
 }
 .quote {
@@ -164,6 +165,7 @@ onMounted(() => {
   color: #fff;
   text-shadow: 0 0 14px #000, 0 0 2px #f0e6d2;
   font-size: 14px;
+  user-select: none;
   animation: show-quote 0.5s;
 }
 @keyframes show-title {

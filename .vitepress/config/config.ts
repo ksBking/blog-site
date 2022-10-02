@@ -65,4 +65,5 @@ export const sideConfig: { [path: string]: sideGroup[] } = {
       menus: ['setting'],
     },
   ],
+  '/tools/vscode/': [{ name: 'config', title: '配置', menus: ['setting'] }],
 };
