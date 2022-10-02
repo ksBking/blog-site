@@ -18,7 +18,6 @@ git remote -v
 ```
 origin  https://github.com/ksBking/ksbking.github.io.git (fetch)
 origin  https://github.com/ksBking/ksbking.github.io.git (push)
-origin  https://gitee.com/ksbking/ksbking.git (push)
 ```
 
 2. 添加远程仓库
