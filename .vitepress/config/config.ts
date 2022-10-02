@@ -29,6 +29,10 @@ export const navConfig: navConfig[] = [
         name: 'system',
         title: '操作系统',
       },
+      {
+        name: 'code',
+        title: '编程',
+      },
     ],
   },
   {

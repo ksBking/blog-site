@@ -1,5 +1,6 @@
 ---
-title: Node.js 配置
+group: code
+title: Node.js
 ---
 
 # Node.js 配置
