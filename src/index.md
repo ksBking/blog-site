@@ -1,5 +1,5 @@
 ---
-title: 主页
+title: Bking 的个人主页
 layout: page
 ---
 

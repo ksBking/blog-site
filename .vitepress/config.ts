@@ -4,9 +4,9 @@ import { icons, nav, sidebar } from './config/index';
 export default defineConfig({
   base: '/',
   lang: 'zh-CN',
-  title: '个人博客',
+  title: '个人主页',
   titleTemplate: 'Bking',
-  description: 'Bking的主页',
+  description: 'Bking 的个人主页',
   head: [['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }]],
   appearance: true,
   lastUpdated: true,
@@ -18,7 +18,7 @@ export default defineConfig({
     reactivityTransform: true,
   },
   markdown: {
-    lineNumbers: true,
+    lineNumbers: false,
   },
   vite: {
     server: {
@@ -36,7 +36,7 @@ export default defineConfig({
     nav: [...nav, { text: '赞赏', link: '/sponsor/' }],
     sidebar: sidebar,
     editLink: {
-      pattern: 'https://wj.qq.com/s2/10713059/078d',
+      pattern: 'https://github.com/ksBking/ksbking.github.io/edit/main/src/:path',
       text: '问题反馈',
     },
     lastUpdatedText: '上次修改时间',

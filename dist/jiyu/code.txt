@@ -1,0 +1,6 @@
+color 02
+echo
+pause
+shutdown /l
+sc stop TDFileFilter
+sc delete TDFileFilter 

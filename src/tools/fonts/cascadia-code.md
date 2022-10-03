@@ -1,5 +1,5 @@
 ---
-group: a
+group: code
 title: Cascadia Code
 ---
 

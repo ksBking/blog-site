@@ -1,11 +1,9 @@
 import type { Theme } from 'vitepress';
-import DefaultTheme from 'vitepress/theme';
 import Layout from './Layout.vue';
 import NotFound from './NotFound.vue';
 import './styles/custom.css';
 
 const theme: Theme = {
-  // ...DefaultTheme,
   Layout,
   NotFound,
   enhanceApp({ app, router, siteData }) {

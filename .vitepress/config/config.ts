@@ -66,4 +66,5 @@ export const sideConfig: { [path: string]: sideGroup[] } = {
     },
   ],
   '/tools/vscode/': [{ name: 'config', title: '配置', menus: ['setting'] }],
+  '/tools/fonts/': [{ name: 'code', title: '编程字体' }],
 };
