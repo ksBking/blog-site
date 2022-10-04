@@ -130,15 +130,17 @@ onMounted(() => {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 @media (min-width: 960px) {
   .title-bg {
     display: block;
   }
 }
+
 .home-bg {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   width: 100%;
   height: 470px;
@@ -146,6 +148,7 @@ onMounted(() => {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .title {
   margin-right: 10%;
   padding: 0 8px;
@@ -156,8 +159,12 @@ onMounted(() => {
   font-size: 48px;
   line-height: 1.4;
   user-select: none;
+  -webkit-animation: show-title 0.5s;
   animation: show-title 0.5s;
+
+  -webkit-user-drag: none;
 }
+
 .quote {
   margin-top: 32px;
   margin-left: 10%;
@@ -168,18 +175,22 @@ onMounted(() => {
   user-select: none;
   animation: show-quote 0.5s;
 }
+
 @keyframes show-title {
   25% {
     transform: scale(2);
   }
+
   75% {
     transform: scale(0.9);
   }
 }
+
 @keyframes show-quote {
   25% {
     transform: scale(1.2);
   }
+
   75% {
     transform: scale(1);
   }

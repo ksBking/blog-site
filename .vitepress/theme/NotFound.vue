@@ -45,15 +45,15 @@ const { site } = useData();
 }
 
 .divider {
+  margin: 24px auto 18px;
   width: 64px;
   height: 1px;
-  margin: 24px auto 18px;
   background-color: var(--vp-c-divider);
 }
 
 .quote {
-  max-width: 256px;
   margin: 0 auto;
+  max-width: 256px;
   color: var(--vp-c-text-2);
   font-weight: 500;
   font-size: 14px;
@@ -61,10 +61,12 @@ const { site } = useData();
 
 .quote a {
   color: var(--vp-c-brand);
-  text-decoration-style: dotted;
   font-weight: 500;
   transition: color 0.25s;
+
+  text-decoration-style: dotted;
 }
+
 .quote a:hover {
   color: var(--vp-c-brand-dark);
 }

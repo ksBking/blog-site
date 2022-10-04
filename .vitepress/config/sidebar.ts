@@ -14,7 +14,7 @@ interface menu {
 }
 
 function title(path: string, groupName: string): string {
-  if (sideConfig[path]) {
+  if (path in sideConfig) {
     // 存在此 path
     for (const groupItem of sideConfig[path]) {
       if (groupItem.name === groupName) {
@@ -28,7 +28,7 @@ function title(path: string, groupName: string): string {
 }
 
 function order(path: string, groupName: string, menuName?: string): number {
-  if (sideConfig[path]) {
+  if (path in sideConfig) {
     // 存在此 path
     for (let groupIndex = 0; groupIndex < sideConfig[path].length; groupIndex++) {
       const groupItem = sideConfig[path][groupIndex];
@@ -72,7 +72,7 @@ function order(path: string, groupName: string, menuName?: string): number {
     return -1;
   } else if (groupName) {
     // 不存在此 group
-    return sideConfig[path] ? sideConfig[path].length : 0;
+    return path in sideConfig ? sideConfig[path].length : 0;
   } else {
     // 不存在此 path
     return 0;
