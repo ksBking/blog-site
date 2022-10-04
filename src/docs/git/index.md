@@ -26,9 +26,9 @@ git config --global user.email user@example.com
 
 ### 同时推送到多个仓库
 
-1. 查看当前的远程库
+1. 查看当前远程仓库
 
-```bash
+```
 git remote -v
 ```
 
@@ -37,13 +37,13 @@ origin  https://github.com/ksBking/ksbking.github.io.git (fetch)
 origin  https://github.com/ksBking/ksbking.github.io.git (push)
 ```
 
-2. 添加远程仓库
+1. 添加远程仓库
 
-```bash
+```
 git remote set-url --add origin
 ```
 
-3. 再次查看当前的远程库(`git remote -v`)
+1. 再次查看当前远程仓库
 
 ```
 origin  https://github.com/ksBking/ksbking.github.io.git (fetch)
