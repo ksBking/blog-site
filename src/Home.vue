@@ -103,8 +103,15 @@ const quotes = [
 const quote = ref();
 const img = ref('none');
 onMounted(() => {
-  img.value = `url(https://game.gtimg.cn/images/lol/act/img/101/${random(1, 44)}.jpg)`;
-  quote.value = quotes[random(0, quotes.length - 1)];
+  // 定时切换
+  setInterval(
+    (function func() {
+      img.value = `url(https://game.gtimg.cn/images/lol/act/img/101/${random(1, 44)}.jpg)`;
+      quote.value = quotes[random(0, quotes.length - 1)];
+      return func;
+    })(),
+    60 * 1000,
+  );
 });
 </script>
 

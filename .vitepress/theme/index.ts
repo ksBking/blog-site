@@ -11,7 +11,6 @@ const theme: Theme = {
     // router is VitePress' custom router. `siteData` is
     // a `ref` of current site-level metadata.
   },
-
   setup() {
     // this function will be executed inside VitePressApp's
     // setup hook. all composition APIs are available here.

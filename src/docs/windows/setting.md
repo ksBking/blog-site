@@ -18,8 +18,7 @@ title: 设置
 
 ## 桌面图标设置
 
-<a href="ms-settings:themes">打开个性化设置</a>
-
+<a href="ms-settings:themes">打开个性化设置</a>  
 可通过**手动打开**方式或**快速打开**方式以打开**桌面图标设置**
 
 - **手动打开**
@@ -75,7 +74,7 @@ title: 设置
 
    - [**Defender Control (dfControl)**](https://www.sordum.org/9480/defender-control-v2-1/)
 
-     - [官网下载](https://www.sordum.org/files/downloads.php?st-defender-control)
+     - [从 官方网站 下载](https://www.sordum.org/files/downloads.php?st-defender-control)
      - [从 系统之家 下载](https://www.xitongzhijia.net/soft/243200.html)
      - [从 爱纯净下载站 下载](http://www.aichunjing.com/soft/2019-09-08/786.html)
 

@@ -23,7 +23,6 @@ Cascadia Code 是 Microsoft 提供的一种新的等宽字体，可为命令行�
 Powerline 是一个常用的命令行插件，用于在提示中显示附加信息。 它使用一些附加的字形来正确显示此信息。
 
 编程连字是通过组合字符创建的字形。 它们在编写代码时最有用。 “Code”变体包含连字，而“Mono”变体不包含连字。
-
 ![](https://learn.microsoft.com/zh-cn/windows/terminal/images/programming-ligatures.gif)
 
 ## 参与 Cascadia Code

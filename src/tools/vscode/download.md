@@ -4,7 +4,7 @@ title: 下载
 
 # 下载
 
-[官网下载](https://code.visualstudio.com/download)如果很慢，推荐使用以下方法。
+[从 官方网站 下载](https://code.visualstudio.com/download)如果很慢，推荐使用以下方法。
 
 ## 镜像下载
 
