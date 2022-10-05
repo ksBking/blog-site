@@ -40,7 +40,7 @@ origin  https://github.com/ksBking/ksbking.github.io.git (push)
 1. 添加远程仓库
 
 ```
-git remote set-url --add origin
+git remote set-url --add origin https://gitee.com/ksbking/ksbking.git
 ```
 
 1. 再次查看当前远程仓库
