@@ -1,0 +1,15 @@
+{
+  "default": true,
+  // 取消段落和标题最大长度限制
+  "MD013": false,
+  "MD025": {
+    // 解决 frontmatter 的 title 与 h1 冲突
+    "front_matter_title": ""
+  },
+  // 允许使用 HTML 内联元素
+  "MD033": false,
+  // 允许代码块不注明语言类型
+  "MD040": false,
+  // 允许图片不带 alt
+  "MD045": false
+}

@@ -50,6 +50,11 @@ export const navConfig: navConfig[] = [
     title: '项目',
     groups: [],
   },
+  {
+    name: 'others',
+    title: '其他',
+    groups: [],
+  },
 ];
 
 export const sideConfig: { [path: string]: sideGroup[] } = {

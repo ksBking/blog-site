@@ -15,7 +15,7 @@ Node.js® 是一个开源、跨平台、基于 Chrome V8 引擎的 JavaScript �
 
 ## 关于 Node.js
 
-作为一个异步事件驱动的 JavaScript 运行时，Node.js 被设计用来构建可扩展的网络应用。在下面的 “Hello World” 示例中，可以并发处理许多连接，每一个连接都会触发一个回调，而当没有可做的事情时，Node.js 就会进入休眠状态。
+作为一个异步事件驱动的 JavaScript 运行时，Node.js 被设计用来构建可扩展的网络应用。在下面的“Hello World”示例中，可以并发处理许多连接，每一个连接都会触发一个回调，而当没有可做的事情时，Node.js 就会进入休眠状态。
 
 ```JavaScript
 const http = require('http');
@@ -40,7 +40,7 @@ server.listen(port, hostname, () => {
 
 ---
 
-Node.js 在设计上类似于 Ruby 的 [Event Machine](https://github.com/eventmachine/eventmachine) 或 Python 的 [Twisted](https://twistedmatrix.com/trac/) 之类的系统。但 Node.js 更深入地考虑了事件模型，它将[事件循环](https://twistedmatrix.com/trac/)作为一个运行时结构而不是作为一个库来呈现。在其他系统中，总是有一个阻塞调用来启动事件循环。通常情况下，要执行的行为是通过脚本开始时的回调来定义的，然后通过`EventMachine::run()`这样的阻塞调用来启动服务器。而在 Node.js 中，没有这种启动事件循环的调用。Node.js 在执行输入脚本后直接进入事件循环，当没有更多的回调要执行时，Node.js 就会退出事件循环。这种行为就像浏览器的 JavaScript 一样 —— 事件循环对用户是隐藏的。
+Node.js 在设计上类似于 Ruby 的 [Event Machine](https://github.com/eventmachine/eventmachine) 或 Python 的 [Twisted](https://twistedmatrix.com/trac/) 之类的系统。但 Node.js 更深入地考虑了事件模型，它将[事件循环](https://twistedmatrix.com/trac/)作为一个运行时结构而不是作为一个库来呈现。在其他系统中，总是有一个阻塞调用来启动事件循环。通常情况下，要执行的行为是通过脚本开始时的回调来定义的，然后通过`EventMachine::run()`这样的阻塞调用来启动服务器。而在 Node.js 中，没有这种启动事件循环的调用。Node.js 在执行输入脚本后直接进入事件循环，当没有更多的回调要执行时，Node.js 就会退出事件循环。这种行为就像浏览器的 JavaScript 一样——事件循环对用户是隐藏的。
 
 HTTP 是 Node.js 中的一等公民，设计时考虑到了流式和低延迟，这使得 Node.js 非常适合作为网络库或框架的基础。
 

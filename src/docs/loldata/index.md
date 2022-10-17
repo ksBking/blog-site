@@ -7,12 +7,12 @@ title: 官网资源
 
 ## 变量
 
-- n-m: 数值 n 到 m，包括 n 和 m
-- champNmae: 英雄名称, 例如 Yasuo
-- champId: 英雄 id, 例如 157
-- skinId: 皮肤 id, 例如 157001
-- champSpell: 技能名称, 详见 英雄数据 `spells[0].abilityIconPath`
-- role: 定位
+- m-n：数值 m 到 n（包括 n 和 m）
+- champNmae：英雄名称。例如：Yasuo
+- champId：英雄 id。例如：157
+- skinId：皮肤 id。例如：157001
+- champSpellNmae：技能名称。详见“英雄数据”的数组“spells”中技能图标链接“abilityIconPath”
+- role：定位
 
   ```json
   {
@@ -26,6 +26,7 @@ title: 官网资源
   ```
 
 - position: 位置
+
   ```json
   {
     "top": "上单",
@@ -35,7 +36,9 @@ title: 官网资源
     "support": "辅助"
   }
   ```
+
 - 装备类型
+
   ```json
   {
     "ordinary": "普通",
@@ -59,7 +62,7 @@ title: 官网资源
 
 [`https://game.gtimg.cn/images/lol/act/img/js/items/items.js`](https://game.gtimg.cn/images/lol/act/img/js/items/items.js)
 
-### 装备列表(ext)
+### 装备列表（ext）
 
 [`https://game.gtimg.cn/images/lol/act/img/js/items_ext/items_ext.js`](https://game.gtimg.cn/images/lol/act/img/js/items_ext/items_ext.js)
 
@@ -71,7 +74,7 @@ title: 官网资源
 
 [`https://game.gtimg.cn/images/lol/act/img/js/summonerskillList/summonerskill_list.js`](https://game.gtimg.cn/images/lol/act/img/js/summonerskillList/summonerskill_list.js)
 
-### 宇宙官网英雄列表(含高清英雄原皮图片链接)
+### 宇宙官网英雄列表（含高清英雄原皮图片链接）
 
 [`https://yz.lol.qq.com/v1/zh_cn/champion-browse/index.json`](https://yz.lol.qq.com/v1/zh_cn/champion-browse/index.json)
 
@@ -125,7 +128,7 @@ title: 官网资源
 
 `https://game.gtimg.cn/images/lol/act/img/chromas/${champId}/${skinId}.png`
 
-仅限炫彩皮肤 英雄数据 `skins[0].chromas` "0"/"1"
+仅限“英雄数据”数组“skins”中是否为炫彩“chromas”的值为数字`1`。
 
 ### 101 横幅
 

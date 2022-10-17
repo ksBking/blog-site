@@ -1,5 +1,5 @@
 ---
-title: 版本控制(nvm)
+title: 版本控制（nvm）
 ---
 
 # 适用于 Windows 的 NVM
@@ -29,7 +29,7 @@ nvm 全英文也叫 Node.js Version Management，是一个 Node.js 的版本管�
 
 :::
 
-1. 卸载之前的 Node.js 后再运行 nvm-setup.exe 进行安装
+1. 卸载之前的 Node.js 后再运行“nvm-setup.exe”进行安装
    ![](https://nvm.uihtm.com/images/step1.png)
 
 2. 选择 nvm 安装路径
@@ -64,8 +64,8 @@ nvm 全英文也叫 Node.js Version Management，是一个 Node.js 的版本管�
 使用`nvm list available`显示可下载版本的部分列表
 ![](https://nvm.uihtm.com/images/nvm-list-available.png)
 
-- 使用`nvm install latest`安装最新版本的 Node.js。
-- 使用`nvm install lts`安装稳定版本的 Node.js。
+- 使用`nvm install latest`安装最新版本的 Node.js
+- 使用`nvm install lts`安装稳定版本的 Node.js
 - 使用`nvm install <version>`安装指定版本的 Node.js，`<version>`为指定的 Node.js 版本号
   ![](https://nvm.uihtm.com/images/nvm-install-node.png)
 
