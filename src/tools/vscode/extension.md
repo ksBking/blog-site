@@ -9,7 +9,7 @@ group: config
 
 ## [Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans)
 
-## 中文语言包扩展（简体）
+中文语言包扩展（简体）
 
 ## [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
