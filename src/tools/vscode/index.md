@@ -11,4 +11,4 @@ Visual Studio Code（简称 VS Code）是一个轻量级且功能强大的源代
 
 - [官方网站](https://code.visualstudio.com/)
 - [官方文档](https://code.visualstudio.com/docs)
-- [下载地址](https://code.visualstudio.com/download)
+- [官网下载](https://code.visualstudio.com/download)
