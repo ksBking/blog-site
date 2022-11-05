@@ -21,6 +21,12 @@
       "name": "Serve",
       "request": "launch",
       "type": "node-terminal"
+    },
+    {
+      "command": ".\\deploy.sh",
+      "name": "Deploy",
+      "request": "launch",
+      "type": "node-terminal"
     }
   ]
 }
