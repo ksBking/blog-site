@@ -33,7 +33,7 @@ export default defineConfig({
     siteTitle: 'Bking',
     outline: 'deep',
     outlineTitle: '本页目录',
-    nav: [...nav, { text: '赞赏', link: '/sponsor/' }],
+    nav: [...nav, { text: '赞赏', link: '/sponsor/' }, { text: '生物学', link: '/biology/' }],
     sidebar: sidebar,
     editLink: {
       pattern: 'https://github.com/ksBking/ksbking.github.io/edit/main/src/:path',
