@@ -118,7 +118,7 @@ onMounted(() => {
 <template>
   <div class="title-bg" :style="{ 'background-image': img }"></div>
   <div class="home-bg" :style="{ 'background-image': img }">
-    <div class="title">你好, 朋友!</div>
+    <div class="title">你好啊，我的朋友！</div>
     <div class="quote" v-if="quote">
       {{ quote.content }} ——《{{ quote.from }}》 {{ quote.author }}
     </div>
